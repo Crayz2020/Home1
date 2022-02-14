@@ -2,7 +2,6 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import pages.Components.CalendarComponent;
-import pages.Components.OtherComponents;
 
 import java.io.File;
 
@@ -15,7 +14,6 @@ public class RegistrationPage {
 
     //Components
     CalendarComponent calendarComponent = new CalendarComponent();
-    OtherComponents otherComponents = new OtherComponents();
 
     // locators
     SelenideElement
