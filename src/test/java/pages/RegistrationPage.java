@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class RegistrationPage {
 
+
     // locators
     SelenideElement firstnameInput = $("#firstName");
     SelenideElement lastnameInput = $("#lastName");
