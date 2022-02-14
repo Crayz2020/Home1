@@ -4,7 +4,88 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9892cb62-fd1b-4a51-85fc-c56801294b64" name="Changes" comment="added some pageobjects" />
+    <list default="true" id="9892cb62-fd1b-4a51-85fc-c56801294b64" name="Changes" comment="added some pageobjects">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/TextBoxTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477368116.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477368116.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477553100.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477553100.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477736349.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477736349.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477774255.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477774255.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477824810.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644477824810.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644478126500.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644478126500.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644478383420.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644478383420.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644478444819.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644478444819.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644479398276.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644479398276.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644479480417.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644479480417.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644479712804.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644479712804.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644480505457.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644480505457.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481077211.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481077211.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481281072.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481281072.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481770367.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481770367.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481859560.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481859560.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481901590.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644481901590.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644482000855.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644482000855.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483103449.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483103449.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483299614.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483299614.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483431655.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483431655.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483607998.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483607998.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483673635.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1644483673635.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +111,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Home1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Home1" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -254,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644837845416</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added some pageobjects">
+      <created>1644840157661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644840157661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
