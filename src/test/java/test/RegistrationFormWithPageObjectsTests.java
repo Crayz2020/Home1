@@ -13,6 +13,12 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class RegistrationFormWithPageObjectsTests {
+    RegistrationPage registrationPage = new RegistrationPage();
+    String FirstName = "Andrey";
+    String LastName = "Pugachev";
+    String Email = "Andrey_zamer@mail.ru";
+    String UserNumber = "1234567890";
+    String currentAddress = "Ufa";
 
     @BeforeAll
     static void beforeAll() {
@@ -22,14 +28,12 @@ public class RegistrationFormWithPageObjectsTests {
 
     @Test
     void successFillTest() {
-        open ("/automation-practice-form");
-        $(".main-header").shouldHave(text("Practice Form"));
-
-        new RegistrationPage().setFirstName("Andrey");
-        new RegistrationPage().setLastName("Pugachev");
-        new RegistrationPage().setEmail("andrey_zamer@mail.ru");
+        registrationPage.OpenPage()
+                        .setFirstName(FirstName)
+                        .setLastName(LastName)
+                        .setEmail(Email)
+                        .setUserNumber(UserNumber);
         $(byText("Male")).click();
-        new RegistrationPage().setUserNumber("1234567890");
         $("#dateOfBirthInput").click();
         $(".react-datepicker__year-select").selectOptionByValue("1993");
         $(".react-datepicker__month-select").selectOptionContainingText("September");
@@ -39,7 +43,7 @@ public class RegistrationFormWithPageObjectsTests {
         $(byText("Reading")).click();
         File home = new File("src/test/resources/home.jpg");
         $("#uploadPicture").scrollTo().uploadFile(home);
-        new RegistrationPage().setcurrentAddress("Ufa");
+        registrationPage.setcurrentAddress(currentAddress);
         $("#state").click();
         $(byText("Haryana")).click();
         $("#city").click();
@@ -47,16 +51,16 @@ public class RegistrationFormWithPageObjectsTests {
         $("#submit").click();
 
         $(".modal-header").shouldHave(text("Thanks for submitting the form"));
-        new RegistrationPage().checkForm("Andrey Pugachev");
-        new RegistrationPage().checkForm("andrey_zamer@mail.ru");
-        new RegistrationPage().checkForm("Male");
-        new RegistrationPage().checkForm("1234567890");
-        new RegistrationPage().checkForm("17 September,1993");
-        new RegistrationPage().checkForm("Physics");
-        new RegistrationPage().checkForm("Reading");
-        new RegistrationPage().checkForm("home.jpg");
-        new RegistrationPage().checkForm("Ufa");
-        new RegistrationPage().checkForm("Haryana Karnal");
+        registrationPage.checkForm(FirstName + " " + LastName)
+                .checkForm(Email)
+                .checkForm("Male")
+                .checkForm(UserNumber)
+                .checkForm("17 September,1993")
+                .checkForm("Physics")
+                .checkForm("Reading")
+                .checkForm("home.jpg")
+                .checkForm(currentAddress)
+                .checkForm("Haryana Karnal");
 
     }
 }
