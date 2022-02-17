@@ -2,6 +2,7 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import pages.Components.CalendarComponent;
+import test.TestBase;
 
 import java.io.File;
 
@@ -10,20 +11,19 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class RegistrationPage {
+public class RegistrationPage extends TestBase {
 
     //Components
     CalendarComponent calendarComponent = new CalendarComponent();
 
     // locators
-    SelenideElement
-            headerTitle = $(".main-header"),
-            firstnameInput = $("#firstName"),
-            lastnameInput = $("#lastName"),
-            emailInput = $("#userEmail"),
-            usernumberInput = $("#userNumber"),
-            currentAddressInput = $("#currentAddress"),
-            resultsTable = $(".table-responsive");
+    SelenideElement headerTitle = $(".main-header"),
+                    firstnameInput = $("#firstName"),
+                    lastnameInput = $("#lastName"),
+                    emailInput = $("#userEmail"),
+                    usernumberInput = $("#userNumber"),
+                    currentAddressInput = $("#currentAddress"),
+                    resultsTable = $(".table-responsive");
 
 
     // actions
@@ -87,22 +87,22 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setGender() {
-        $(byText("Male")).click();
+        $(byText(gender)).click();
 
         return this;
 
     }
 
-    public RegistrationPage setSubjects(String hobby) {
-        $("#subjectsInput").setValue("P");
-        $(byText("Physics")).click();
+    public RegistrationPage setSubjects(String subject) {
+        $("#subjectsInput").setValue(subjectInput);
+        $(byText(subject)).click();
 
         return this;
 
     }
 
     public RegistrationPage setHobbies() {
-        $(byText("Reading")).click();
+        $(byText(hobby)).click();
 
         return this;
 
@@ -116,17 +116,17 @@ public class RegistrationPage {
 
     }
 
-    public RegistrationPage selectState(String State) {
+    public RegistrationPage selectState(String state) {
         $("#state").click();
-        $(byText("Haryana")).click();
+        $(byText(state)).click();
 
         return this;
 
     }
 
-    public RegistrationPage selectCity(String City) {
+    public RegistrationPage selectCity(String city) {
         $("#city").click();
-        $(byText("Karnal")).click();
+        $(byText(city)).click();
 
         return this;
 
