@@ -2,7 +2,6 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import pages.Components.CalendarComponent;
-import test.TestBase;
 
 import java.io.File;
 
@@ -10,8 +9,9 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static test.TestData.*;
 
-public class RegistrationPage extends TestBase {
+public class RegistrationPage {
 
     //Components
     CalendarComponent calendarComponent = new CalendarComponent();
@@ -86,7 +86,7 @@ public class RegistrationPage extends TestBase {
 
     }
 
-    public RegistrationPage setGender() {
+    public RegistrationPage setGender(String gender) {
         $(byText(gender)).click();
 
         return this;
@@ -101,14 +101,14 @@ public class RegistrationPage extends TestBase {
 
     }
 
-    public RegistrationPage setHobbies() {
+    public RegistrationPage setHobbies(String hobby) {
         $(byText(hobby)).click();
 
         return this;
 
     }
 
-    public RegistrationPage uploadFile() {
+    public RegistrationPage uploadFile(String file) {
         File home = new File("src/test/resources/home.jpg");
         $("#uploadPicture").scrollTo().uploadFile(home);
 
