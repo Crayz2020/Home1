@@ -1,6 +1,7 @@
 package test;
 
-public class TestData {
+public class TestData extends TestBase {
+
     public static String firstName = "Andrey",
             lastName = "Pugachev",
             email = "Andrey_zamer@mail.ru",
@@ -14,4 +15,5 @@ public class TestData {
             file = "home.jpg",
             state = "Haryana",
             city = "Karnal";
+
 }
