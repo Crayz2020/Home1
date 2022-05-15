@@ -1,6 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import pages.Components.CalendarComponent;
 
 import java.io.File;
@@ -27,6 +28,7 @@ public class RegistrationPage {
 
 
     // actions
+    @Step ("Open Page")
     public RegistrationPage OpenPage() {
         open("/automation-practice-form");
         headerTitle.shouldHave(text("Practice Form"));
@@ -34,6 +36,7 @@ public class RegistrationPage {
         return this;
     }
 
+    @Step ("Set Firstname")
     public RegistrationPage setFirstName(String firstName) {
         firstnameInput.setValue(firstName);
 
@@ -41,6 +44,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Lastname")
     public RegistrationPage setLastName(String lastName) {
         lastnameInput.setValue(lastName);
 
@@ -48,6 +52,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Email")
     public RegistrationPage setEmail(String email) {
         emailInput.setValue(email);
 
@@ -56,6 +61,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set User Number")
     public RegistrationPage setUserNumber(String usernumber) {
         usernumberInput.setValue(usernumber);
 
@@ -63,6 +69,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Address")
     public RegistrationPage setcurrentAddress(String currentAddress) {
         currentAddressInput.setValue(currentAddress);
 
@@ -78,6 +85,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Birthday")
     public RegistrationPage setBirthDate(String day, String month, String year) {
         $("#dateOfBirthInput").click();
         calendarComponent.setDate(day, month, year);
@@ -86,6 +94,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Gender")
     public RegistrationPage setGender(String gender) {
         $(byText(gender)).click();
 
@@ -93,6 +102,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Subjects")
     public RegistrationPage setSubjects(String subject) {
         $("#subjectsInput").setValue(subjectInput);
         $(byText(subject)).click();
@@ -101,6 +111,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Hobbies")
     public RegistrationPage setHobbies(String hobby) {
         $(byText(hobby)).click();
 
@@ -108,6 +119,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Set Upload File")
     public RegistrationPage uploadFile(String file) {
         File home = new File("src/test/resources/home.jpg");
         $("#uploadPicture").scrollTo().uploadFile(home);
@@ -116,6 +128,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Select State")
     public RegistrationPage selectState(String state) {
         $("#state").click();
         $(byText(state)).click();
@@ -124,6 +137,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Select City")
     public RegistrationPage selectCity(String city) {
         $("#city").click();
         $(byText(city)).click();
@@ -132,6 +146,7 @@ public class RegistrationPage {
 
     }
 
+    @Step ("Submit")
     public RegistrationPage checkResoults() {
         $("#submit").scrollTo().pressEnter();
 
