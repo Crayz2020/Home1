@@ -133,7 +133,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage checkResoults() {
-        $("#submit").click();
+        $("#submit").scrollTo().pressEnter();
 
         return this;
 
