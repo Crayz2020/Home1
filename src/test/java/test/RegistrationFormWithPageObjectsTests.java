@@ -12,8 +12,6 @@ public class RegistrationFormWithPageObjectsTests extends TestBase {
 
     @Test
     public void successFillTest() {
-        Allure.parameter("Регион", "Республика Башкортостан");
-        Allure.parameter("Город", "Уфа");
 
         //Ввод данных
 
