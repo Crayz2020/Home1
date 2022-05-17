@@ -1,6 +1,7 @@
 package test;
 
 
+import io.qameta.allure.Allure;
 import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 import static test.TestData.*;
@@ -11,6 +12,8 @@ public class RegistrationFormWithPageObjectsTests extends TestBase {
 
     @Test
     public void successFillTest() {
+        Allure.parameter("Регион", "Республика Башкортостан");
+        Allure.parameter("Город", "Уфа");
 
         //Ввод данных
 
